@@ -1,1 +1,6 @@
 export { Greeter } from './greeter'
+export { Record } from './record'
+export { Replay } from './replay'
+export { Status, ReplayModel } from './entity/status'
+export { OperationStep } from './entity/step'
+export { ReplayOptions, Options } from './entity/options'
