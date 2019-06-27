@@ -1,6 +1,6 @@
 # rrwidget
 
-> Typescript
+> Typescript &
 
 [![Build Status](https://travis-ci.org/bzg0382@gmail.com/rrwidget.svg?branch=master)](https://travis-ci.org/bzg0382@gmail.com/rrwidget)
 [![NPM version](https://img.shields.io/npm/v/@huohua/rrwidget.svg)](https://www.npmjs.com/package/@huohua/rrwidget)
