@@ -13,6 +13,7 @@ function generateMockStep(
     args: [mockData1, mockData2],
     duration: 0,
     timer: mockTimer,
+    eventScopeObject: null,
   }
 
   return step1

@@ -85,6 +85,7 @@ describe(`Record`, () => {
         },
         args: [1, 1],
         duration: 0,
+        eventScopeObject: null,
       }
       record.recordOperation(recordStep)
       const lastStep = record.steps[record.steps.length - 1]

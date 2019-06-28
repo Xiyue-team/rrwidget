@@ -85,7 +85,9 @@ export class Replay {
         const args = step.mockData
           ? step.args.concat([step.mockData])
           : step.args
-        step.event(...args)
+
+        step.event.apply(step.eventScopeObject, args)
+        // step.event(...args)
 
         setTimeout(() => {
           resolve(true)
