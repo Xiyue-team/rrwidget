@@ -2,7 +2,7 @@
 
 > Typescript &
 
-[![Build Status](https://travis-ci.org/bzg0382@gmail.com/rrwidget.svg?branch=master)](https://travis-ci.org/bzg0382@gmail.com/rrwidget)
+[![Build Status](https://travis-ci.org/Xiyue-team/rrwidget.svg?branch=master)](https://travis-ci.org/Xiyue-team/rrwidget)
 [![NPM version](https://img.shields.io/npm/v/@huohua/rrwidget.svg)](https://www.npmjs.com/package/@huohua/rrwidget)
 ![Downloads](https://img.shields.io/npm/dm/@huohua/rrwidget.svg)
 [![Standard Version](https://img.shields.io/badge/release-standard%20version-brightgreen.svg)](https://github.com/conventional-changelog/standard-version)
