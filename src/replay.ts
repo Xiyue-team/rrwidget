@@ -86,7 +86,15 @@ export class Replay {
           ? step.args.concat([step.mockData])
           : step.args
 
-        step.event.apply(step.eventScopeObject, args)
+        let scope = null
+        if (typeof step.eventScopeObject === 'string') {
+          // tslint:disable-next-line: no-any
+          scope = (window as any)[step.eventScopeObject]
+        } else {
+          scope = step.eventScopeObject
+        }
+
+        step.event.apply(scope, args)
         // step.event(...args)
 
         setTimeout(() => {

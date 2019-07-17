@@ -2,7 +2,7 @@
  * 微件操作步骤
  */
 export interface OperationStep {
-  // 事件的作用域对象
+  // 事件的作用域对象 (object | string)
   // tslint:disable-next-line: no-any
   eventScopeObject: any
   // 索引
