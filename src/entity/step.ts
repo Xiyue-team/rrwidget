@@ -9,7 +9,8 @@ export interface OperationStep {
   index?: number
   // 触发事件
   // tslint:disable-next-line: no-any
-  event: (...args: any[]) => void
+  // event: (...args: any[]) => void
+  event: string
 
   // 参数,传入参数
   // tslint:disable-next-line: no-any

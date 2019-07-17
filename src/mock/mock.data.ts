@@ -7,9 +7,7 @@ function generateMockStep(
   mockTimer: number
 ): OperationStep {
   const step1: OperationStep = {
-    event: (arg1: number, arg2: number, mockData) => {
-      return arg1 + arg2
-    },
+    event: 'alert',
     args: [mockData1, mockData2],
     duration: 0,
     timer: mockTimer,

@@ -94,7 +94,8 @@ export class Replay {
           scope = step.eventScopeObject
         }
 
-        step.event.apply(scope, args)
+        // tslint:disable-next-line: no-unsafe-any
+        scope[step.event].apply(scope, args)
         // step.event(...args)
 
         setTimeout(() => {
